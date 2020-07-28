@@ -18,3 +18,52 @@
 .white{
     background-color: #fff;
 }
+
+.circlePiece {
+    height: 100%;
+    width: 100%;
+    border: solid;
+    border-radius: 50%;
+    border-color: white;
+    display: inline-block;
+}
+
+.squarePiece {
+    height: 50%;
+    width: 50%;
+    border: solid;
+    border-color: white;
+    display: inline-block;
+}
+
+.redPiece{
+    background-color: red;
+}
+
+
+.blackPiece{
+    background-color: black;
+
+}
+
+
+.orangePiece{
+    background-color: orange;
+
+}
+
+
+.pinkPiece{
+
+    background-color: pink;
+}
+
+
+.bluePiece{
+    background-color: blue;
+
+}
+
+.greenPiece{
+    background-color: green;
+}
