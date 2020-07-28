@@ -7,9 +7,11 @@ import CheckerGame from "./components/checker-game.component";
 
 function App() {
   return (
-    <div className="container">
-      <Route path="/" exact component={CheckerGame} />
-    </div>
+    <Router>
+      <div className="container">
+        <Route path="/" exact component={CheckerGame} />
+      </div>
+    </Router>
   );
 }
 
